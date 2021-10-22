@@ -1,9 +1,9 @@
 print("Выведите на экран числа 1, 2, 3, 4, ..., 20.")
-n=20
+n=0
 def aik(a):
-        while a >0:
+        while a < 20:
                 print(a)
-                a = a-1
+                a = a+1
 aik(n)
 print("Finally, n =",n)
 def poka():

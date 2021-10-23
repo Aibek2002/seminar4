@@ -1,7 +1,7 @@
 print("Выведите на экран числа 1, 2, 3, 4, ..., 20.")
 n=0
 def aik(a):
-        while a < 20:
+        while a < 21:
                 print(a)
                 a = a+1
 aik(n)
